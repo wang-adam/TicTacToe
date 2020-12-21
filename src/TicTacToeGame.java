@@ -25,8 +25,8 @@ public class TicTacToeGame {
 				+ "\nA1 represents the top left corner and C3 represents the bottom right.");
 		printBoard();
 		cleanBoard();
-		System.out.println("S = Single Player");
-		System.out.println("M = Multiplayer");
+		System.out.println("S = Single Player (Player vs. Computer)");
+		System.out.println("M = Multiplayer (Player vs. Player)");
 		System.out.print("Choose Mode (S or M): ");
 		gameMode = in.nextLine().toUpperCase();
 		int player = 1;
